@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Employee CRUD</title>
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <h1>Employee Database</h1>
+    <div class="container">
+      <form id="employee-form">
+        <label for="">Employee's name</label>
+        <input
+          class="form-input"
+          type="text"
+          id="eName"
+          placeholder="Enter here..."
+        />
+        <label for="">Employee's salary</label>
+        <input
+          class="form-input"
+          type="number"
+          id="eSalary"
+          placeholder="Enter here..."
+        />
+        <label for="">Employee's date of birth</label>
+        <input class="form-input" type="date" id="eBirth" />
+        <button class="btn" id="saveEmployee">Save</button>
+      </form>
+    </div>
+
+    <div class="container">
+      <table id="employee-table">
+        <tr></tr>
+      </table>
+    </div>
+
+    <script type="module" src="index.js"></script>
+  </body>
+</html>
